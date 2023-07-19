@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainGateway", "MainGateway\MainGateway.csproj", "{29B3508C-62C0-4CDC-9303-4FFBFEC05A25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainGW", "MainGW", "{CCBD13B1-0B8C-4653-AFAF-6A0DABDC06AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderRabbitMQ", "SenderRabbitMQ\SenderRabbitMQ.csproj", "{63A01AD8-DCC7-4B3C-A329-23EC047EDF9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29B3508C-62C0-4CDC-9303-4FFBFEC05A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B3508C-62C0-4CDC-9303-4FFBFEC05A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B3508C-62C0-4CDC-9303-4FFBFEC05A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B3508C-62C0-4CDC-9303-4FFBFEC05A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A01AD8-DCC7-4B3C-A329-23EC047EDF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A01AD8-DCC7-4B3C-A329-23EC047EDF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A01AD8-DCC7-4B3C-A329-23EC047EDF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A01AD8-DCC7-4B3C-A329-23EC047EDF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29B3508C-62C0-4CDC-9303-4FFBFEC05A25} = {CCBD13B1-0B8C-4653-AFAF-6A0DABDC06AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2878E5F1-28B7-40E5-8803-FA0BEE63CB3F}
+	EndGlobalSection
+EndGlobal
